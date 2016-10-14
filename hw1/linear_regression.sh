@@ -1,2 +1,1 @@
-#!/bin/bash
-./linear_regression
+python linear_regression.py
