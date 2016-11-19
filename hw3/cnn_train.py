@@ -112,7 +112,7 @@ for r in range(rounds):
       if(len(delete_index)>0):
         Y_train_unlabel_added = np.vstack((Y_train_unlabel_added,np_utils.to_categorical
                                 (np.argmax(prob_of_X_train_unlabel_not_added[np.ix_(delete_index,
-                                [j for j in range(10)])],axis=1))))
+                                [j for j in range(10)])],axis=1), nb_classes)))
       X_train_unlabel_not_added_id = np.delete(X_train_unlabel_not_added_id,delete_index)
 
     #fitting
