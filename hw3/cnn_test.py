@@ -4,7 +4,7 @@ import sys
 import pickle
 import numpy as np
 
-model=load_model(sys.argv[1]+sys.argv[2])
+model=load_model(sys.argv[2])
 
 test = pickle.load(open(sys.argv[1]+'test.p','rb'))
 X_test = np.array(test['data'])
