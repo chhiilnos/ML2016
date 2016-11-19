@@ -1,2 +1,2 @@
-python cnn_test.py $1 $2 $3
+python3 cnn_test.py $1 $2 $3
 
