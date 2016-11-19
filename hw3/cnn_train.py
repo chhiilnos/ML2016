@@ -122,7 +122,7 @@ for r in range(rounds):
                   batch_size=batch_size,
                   nb_epoch=nb_epoch_self)
 
-model.save(sys.argv[1]+sys.argv[2])
+model.save(sys.argv[2])
 
 
 
